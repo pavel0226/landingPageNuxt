@@ -22,7 +22,9 @@ export default {
   plugins: ['~/plugins/smooth-scroll.js', '~/plugins/mdi.js'],
   components: true,
   buildModules: ['@nuxtjs/eslint-module', '@nuxt/postcss8'],
-  modules: [],
+  modules: [
+    'vue3-carousel-nuxt',
+  ],
   build: {
     postcss: {
       plugins: {

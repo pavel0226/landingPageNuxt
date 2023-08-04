@@ -9,6 +9,9 @@ import ArrowRightIcon from 'vue-material-design-icons/ArrowRight.vue'
 import CheckCircleIcon from 'vue-material-design-icons/CheckCircle.vue'
 import SegmentIcon from 'vue-material-design-icons/Segment.vue'
 import CloseIcon from 'vue-material-design-icons/Close.vue'
+import InstagramIcon from 'vue-material-design-icons/Instagram.vue'
+import FacebookIcon from 'vue-material-design-icons/Facebook.vue'
+import TwitterIcon from 'vue-material-design-icons/Twitter.vue'
 
 const components = {
   ChevronDownIcon,
@@ -21,6 +24,9 @@ const components = {
   CheckCircleIcon,
   SegmentIcon,
   CloseIcon,
+  InstagramIcon,
+  FacebookIcon,
+  TwitterIcon,
 }
 
 Object.entries(components).forEach(([name, component]) => {
